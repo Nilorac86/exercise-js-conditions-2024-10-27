@@ -98,11 +98,86 @@ if (number % 5 === 0 ){
 
 
 //10.
-  let answer = confirm ("Vill du gå ut?");
+/*   let answer = confirm ("Vill du gå ut?");
 
   if (answer == true) {
     confirm ("Du vill gå ut.");
   } else {
     confirm ( "Du vill hellre stanna inne.");
-  } 
+  }  */
  
+
+//########## Svåra ###########
+
+//11.
+/* Siffra eller bokstav?
+Låt användaren skriva in ett tecken. Kolla om det är en siffra 
+eller en bokstav och skriv ut resultatet.
+ */
+
+/* const secondDigits = /[0-9]/;
+const lowercase = /[a-ö]/;
+const uppercase = /[A-Ö]/; */
+let object = prompt ("Skriv in en siffra eller en bokstav.");
+
+if (object == /[0-9]/ ){
+    alert ("Du skrev in siffran " + object);
+} else if (object == /[a-z]/ || /[A-Z]/ ){
+    alert("Du skrev in bokstaven " + object);
+}
+
+
+//12.
+/* let firstWord = prompt ("Skriv in första ordet.");
+let secondWord = prompt ("Skriv in andra ordet.");
+let thirdWord = prompt ("Skriv in det tredje ordet.");
+
+let longestWord = firstWord;
+
+if (secondWord.length > longestWord.length ){
+    longestWord = secondWord;
+} if (thirdWord.length > longestWord.length ){
+    longestWord = thirdWord;
+}
+
+alert ("Det längsta ordet är " + longestWord); */
+
+
+//13.
+/* let password = prompt ("Ange ett lösenord.");
+
+const lenghtPassword = password.length >= 8;
+const digit = /[0-9]/;
+
+if (lenghtPassword && digit){
+    alert ("Detta lösenord är godkänt");
+} else {
+    alert ("Lösenordet måste vara 8 tecken långt, samt innehålla en siffra.");
+}  */
+
+
+/*
+//14.
+let ageSecond = prompt("Skriv in din ålder.");
+
+if (ageSecond >=65){
+    alert ("Pensionär 65+ år.");
+}else if (ageSecond >= 20) {
+    alert ("Vuxen 20-64 år.");
+}else if (ageSecond >= 13) {
+    alert ("Tonåring 13-19 år.");
+}else if(ageSecond <= 12){
+    alert ("Barn 0-12 år.");
+}
+*/
+
+
+//15.
+/* const option = confirm ("Vill du bada tryck på ok.\nVill du hellre cykla tryck på avbryt.");
+
+
+if (option == true){
+    alert ("Skynda dig att packa badväskan!");
+} else {
+    alert ("Hämta cyklen och njut.")
+} */
