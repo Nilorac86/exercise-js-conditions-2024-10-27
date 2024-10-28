@@ -115,16 +115,16 @@ Låt användaren skriva in ett tecken. Kolla om det är en siffra
 eller en bokstav och skriv ut resultatet.
  */
 
-/* const secondDigits = /[0-9]/;
-const lowercase = /[a-ö]/;
-const uppercase = /[A-Ö]/; */
+
 let object = prompt ("Skriv in en siffra eller en bokstav.");
 
-if (object == /[0-9]/ ){
+if (object){
     alert ("Du skrev in siffran " + object);
-} else if (object == /[a-z]/ || /[A-Z]/ ){
+} else if (object){
     alert("Du skrev in bokstaven " + object);
 }
+
+/* 
 
 
 //12.
@@ -181,3 +181,4 @@ if (option == true){
 } else {
     alert ("Hämta cyklen och njut.")
 } */
+
