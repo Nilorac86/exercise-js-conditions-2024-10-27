@@ -109,26 +109,20 @@ if (number % 5 === 0 ){
 
 //########## Svåra ###########
 
-//11. Den här uppgiften löste jag inte. Det är säkert lättare och mer logiskt än vad jag fick det till. 
-//Jag gav upp när hjärnan var mosig.
-/* Siffra eller bokstav?
-Låt användaren skriva in ett tecken. Kolla om det är en siffra 
-eller en bokstav och skriv ut resultatet.
- */
+//11.
 
-/*
  let object = prompt ("Skriv in en siffra eller en bokstav.");
- const objectNumber = [0-9];
+ let number = parseInt(object);
 
-if (object === objectNumber){
-  alert ("Du skrev in siffran " + object);
+if (isNaN(number)){
+  alert("Du skrev in bokstaven " + object);
 } else {
-   alert("Du skrev in bokstaven " + object);
+   alert ("Du skrev in siffran " + object);
 }
 
 
 
-
+/*
 //12.
 let firstWord = prompt ("Skriv in första ordet.");
 let secondWord = prompt ("Skriv in andra ordet.");
